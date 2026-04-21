@@ -8,12 +8,12 @@ export const FACEBOOK_LEGIT_URL   = "https://www.facebook.com/media/set/?set=a.3
 
 // ─── Services ────────────────────────────────────────────────────────────────
 export const services = [
-  { name: "Dayhike Tours",        dest: "Various Mountains & Falls", duration: "Day Trip",        tag: "Adventure",   img: "src/assets/hike.webp", desc: "Guided dayhikes to popular mountains and waterfalls across Luzon — safe, fun, and well-organized for all fitness levels." },
-  { name: "Daytours",             dest: "Beach / Island / Town",     duration: "Day Trip",        tag: "Local",  img: "src/assets/local.webp", desc: "One-day trips to beaches, heritage towns, and scenic destinations. Perfect for quick getaways with friends or family." },
-  { name: "Overnight Packages",   dest: "Various Destinations",      duration: "2D1N / 3D2N",    tag: "Overnight", img: "src/assets/overnight.webp", desc: "Overnight and multi-day tours with complete accommodation, transport, and guided itinerary included." },
-  { name: "Joiner & Group Tours", dest: "Open to All",               duration: "Flexible",        tag: "Group",       img: "src/assets/org.webp", desc: "Join a group and travel with fellow adventurers — great for solos, barkadas, families, and team outings." },
-  { name: "Domestic Tours",       dest: "Cebu · Bohol · Boracay +", duration: "Multi-day",       tag: "Local",     img: "src/assets/domestic.webp", desc: "Full domestic tour packages to top Philippine destinations — El Nido, Cebu, Bohol, Boracay, Camiguin, Siquijor, and more." },
-  { name: "Exclusive Tours",      dest: "Any Destination",           duration: "Custom",          tag: "Private",     img: "src/assets/exclusive.webp", desc: "Private exclusive tours for up to 12 guests. Fully customized itinerary, transport, and accommodation." },
+  { name: "Dayhike Tours",        dest: "Various Mountains & Falls", duration: "Day Trip",        tag: "Adventure",   img: "../assets/hike.webp", desc: "Guided dayhikes to popular mountains and waterfalls across Luzon — safe, fun, and well-organized for all fitness levels." },
+  { name: "Daytours",             dest: "Beach / Island / Town",     duration: "Day Trip",        tag: "Local",  img: "../assets/local.webp", desc: "One-day trips to beaches, heritage towns, and scenic destinations. Perfect for quick getaways with friends or family." },
+  { name: "Overnight Packages",   dest: "Various Destinations",      duration: "2D1N / 3D2N",    tag: "Overnight", img: "../assets/overnight.webp", desc: "Overnight and multi-day tours with complete accommodation, transport, and guided itinerary included." },
+  { name: "Joiner & Group Tours", dest: "Open to All",               duration: "Flexible",        tag: "Group",       img: "../assets/org.webp", desc: "Join a group and travel with fellow adventurers — great for solos, barkadas, families, and team outings." },
+  { name: "Domestic Tours",       dest: "Cebu · Bohol · Boracay +", duration: "Multi-day",       tag: "Local",     img: "../assets/domestic.webp", desc: "Full domestic tour packages to top Philippine destinations — El Nido, Cebu, Bohol, Boracay, Camiguin, Siquijor, and more." },
+  { name: "Exclusive Tours",      dest: "Any Destination",           duration: "Custom",          tag: "Private",     img: "../assets/exclusive.webp", desc: "Private exclusive tours for up to 12 guests. Fully customized itinerary, transport, and accommodation." },
 ];
 
 // ─── Tour Rate Lists ─────────────────────────────────────────────────────────
@@ -119,19 +119,19 @@ export const whyUs = [
 ];
 
 export const eduDestinations = [
-  { name: "The Mind Museum", img: "/src/assets/1.webp" },
-  { name: "Art in Island", img: "/src/assets/2.webp" },
-  { name: "Museum Y", img: "/src/assets/3.webp" },
-  { name: "I Belong Museum", img: "/src/assets/4.webp" },
-  { name: "Zoobic Safari", img: "/src/assets/5.webp" },
-  { name: "Ocean Adventure", img: "/src/assets/6.webp" },
-  { name: "Clark Safari", img: "/src/assets/7.webp" },
-  { name: "Manila Ocean Park", img: "/src/assets/8.webp" },
-  { name: "Sky Ranch Tagaytay", img: "/src/assets/9.webp" },
-  { name: "Star City", img: "/src/assets/10.webp" },
-  { name: "Dinosaurs Island", img: "/src/assets/11.webp" },
-  { name: "Enchanted Kingdom", img: "/src/assets/12.webp" },
-  { name: "Taal Heritage Town", img: "/src/assets/13.webp" },
+  { name: "The Mind Museum", img: "../assets/1.webp" },
+  { name: "Art in Island", img: "../assets/2.webp" },
+  { name: "Museum Y", img: "../assets/3.webp" },
+  { name: "I Belong Museum", img: "../assets/4.webp" },
+  { name: "Zoobic Safari", img: "../assets/5.webp" },
+  { name: "Ocean Adventure", img: "../assets/6.webp" },
+  { name: "Clark Safari", img: "../assets/7.webp" },
+  { name: "Manila Ocean Park", img: "../assets/8.webp" },
+  { name: "Sky Ranch Tagaytay", img: "../assets/9.webp" },
+  { name: "Star City", img: "../assets/10.webp" },
+  { name: "Dinosaurs Island", img: "../assets/11.webp" },
+  { name: "Enchanted Kingdom", img: "../assets/12.webp" },
+  { name: "Taal Heritage Town", img: "../assets/13.webp" },
 ];
 
 export const activities = [
