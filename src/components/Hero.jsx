@@ -105,7 +105,7 @@ export default function Hero() {
               flexShrink: 0,
             }}>
               <video
-                src="src/assets/siquijor.mp4"
+                src="/images/siquijor.mp4"
                 autoPlay
                 muted
                 loop
