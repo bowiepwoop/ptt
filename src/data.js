@@ -119,7 +119,7 @@ export const whyUs = [
 ];
 
 export const eduDestinations = [
-  { name: "The Mind Museum", img: "./images/1.webp" },
+  { name: "The Mind Museum", img: "/images/1.webp" },
   { name: "Art in Island", img: "/images/2.webp" },
   { name: "Museum Y", img: "/images/3.webp" },
   { name: "I Belong Museum", img: "/images/4.webp" },
