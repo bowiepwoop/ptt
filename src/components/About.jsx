@@ -36,7 +36,7 @@ export default function About() {
 
           {/* Image collage */}
           <div style={{ position: "relative", height: mobile ? 260 : 420 }}>
-            <img src="/src/assets/logo.png" alt="Palawan"
+            <img src="/images/logo.png" alt="Logo"
               style={{ width: "60%", height: "100%", objectFit: "cover", borderRadius: 18, position: "absolute", top: 0, right: 0, boxShadow: "0 18px 50px rgba(0,0,0,0.45)" }} />
           </div>
         </div>
