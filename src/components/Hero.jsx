@@ -20,7 +20,7 @@ export default function Hero() {
         <div style={{ flex: 1, display: "flex", flexDirection: "column", overflow: "hidden" }}>
           <div style={{ flex: "0 0 45%", position: "relative", overflow: "hidden" }}>
             <video
-              src="./videos/siquijor.mp4"
+              src="/videos/siquijor.mp4"
               autoPlay
               muted
               loop
@@ -105,7 +105,7 @@ export default function Hero() {
               flexShrink: 0,
             }}>
               <video
-                src="/images/siquijor.mp4"
+                src="/videos/siquijor.mp4"
                 autoPlay
                 muted
                 loop
