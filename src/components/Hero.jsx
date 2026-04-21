@@ -76,7 +76,7 @@ export default function Hero() {
             </p>
             <div className="a4" style={{ display: "flex", gap: "1rem", alignItems: "center" }}>
               <a href="#services" className="btn btn-blue" style={{ padding: "0.85rem 2rem", fontSize: "0.88rem", boxShadow: "0 8px 24px rgba(109,148,197,0.38)" }}>Our Services</a>
-              <a href="#destinations" style={{ color: "rgba(245,239,230,0.5)", textDecoration: "none", fontSize: "0.86rem" }}>Explore Destinations →</a>
+              <a href="#packages" style={{ color: "rgba(245,239,230,0.5)", textDecoration: "none", fontSize: "0.86rem" }}>Explore Packages →</a>
             </div>
             <div className="a5" style={{ display: "flex", gap: "3rem", marginTop: "3.5rem", paddingTop: "1.8rem", borderTop: "1px solid rgba(109,148,197,0.22)" }}>
               {[["100+","Happy Travelers"],["10+","Destinations"],["100%","Dedicated"]].map(([n,l]) => (
@@ -88,16 +88,16 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* Right — portrait video */}
+          {/* Portrait video */}
           <div style={{ position: "relative", width: "100%", height: "100%", display: "flex", alignItems: "center", justifyContent: "center", overflow: "hidden", padding: "2rem 2rem 2rem 0" }}>
-            {/* Left-side fade so video blends into the dark background */}
+            
             <div style={{ position: "absolute", left: 0, top: 0, bottom: 0, width: "6rem", background: "linear-gradient(to right, #1C2B3A, transparent)", zIndex: 2, pointerEvents: "none" }} />
 
-            {/* Portrait video container — centered, natural aspect ratio */}
+            {/* Portrait video container */}
             <div style={{
               position: "relative",
               height: "calc(100% - 2rem)",
-              maxHeight: 640,
+              maxHeight: 740,
               aspectRatio: "9 / 16",
               borderRadius: 20,
               overflow: "hidden",
@@ -105,7 +105,7 @@ export default function Hero() {
               flexShrink: 0,
             }}>
               <video
-                src="/videos/siquijor.mp4"
+                src="./videos/siquijor.mp4"
                 autoPlay
                 muted
                 loop
