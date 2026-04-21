@@ -69,7 +69,7 @@ export default function About() {
           </div>
           <div style={{ display: "flex", justifyContent: "center" }}>
             <div style={{ maxWidth: 360, width: "100%", borderRadius: 20, overflow: "hidden", border: "1px solid rgba(109,148,197,0.2)", background: "rgba(203,220,235,0.06)" }}>
-              <img src="src/assets/owner.webp" alt="Praised Owner" style={{ width: "100%", height: 260, objectFit: "cover", display: "block" }}
+              <img src="/images/owner.webp" alt="Praised Owner" style={{ width: "100%", height: 260, objectFit: "cover", display: "block" }}
                 onError={e => { e.target.style.display = "none"; e.target.nextSibling.style.display = "flex"; }} />
               <div style={{ display: "none", width: "100%", height: 260, background: "linear-gradient(135deg,#2a3f57,#6D94C5)", alignItems: "center", justifyContent: "center" }}>
                 <div style={{ width: 80, height: 80, borderRadius: "50%", background: "rgba(255,255,255,0.15)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "2rem" }}>👤</div>
