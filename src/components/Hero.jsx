@@ -121,7 +121,7 @@ function StoryCard({ story, currentIndex, total }) {
             width: "fit-content"
           }}
         >
-          Now Booking
+          See Destinations
           {isSecondVideo && isHovering && (
             <div style={{
               position: "absolute",
