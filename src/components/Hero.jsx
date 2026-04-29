@@ -91,7 +91,7 @@ function StoryCard({ story, currentIndex, total }) {
         <div style={{ display: "flex", alignItems: "center", gap: "0.75rem" }}>
           <img src="/images/logo.png" alt="logo" style={{ width: 36, height: 36, borderRadius: "50%", border: "1px solid rgba(255,255,255,0.2)", objectFit: "cover" }} />
           <div>
-            <div style={{ fontSize: "0.85rem", fontWeight: 700, color: "#F5EFE6" }}>Praised Travel</div>
+            <div style={{ fontSize: "0.85rem", fontWeight: 700, color: "#F5EFE6" }}>Praised Travel & Tours</div>
             <div style={{ fontSize: "0.72rem", color: "rgba(245,239,230,0.65)", marginTop: "0.14rem" }}>Stories</div>
           </div>
         </div>
