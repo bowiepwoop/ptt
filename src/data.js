@@ -6,14 +6,23 @@ export const FACEBOOK_PAGE_URL    = "https://www.facebook.com/praisedtravelandto
 export const FACEBOOK_REVIEWS_URL = "https://www.facebook.com/media/set/?set=a.934576647252147";
 export const FACEBOOK_LEGIT_URL   = "https://www.facebook.com/media/set/?set=a.319864212056730";
 
+// ─── Destinations ────────────────────────────────────────────────────────────
+export const destinations = [
+  { name: "Palawan",   country: "Philippines", tours: "El Nido · Puerto Princesa", badge: "Trending",    img: "https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?w=800&q=80" },
+  { name: "Boracay",   country: "Philippines", tours: "Beach & Island",             badge: "Beach",       img: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&q=80" },
+  { name: "Bohol",     country: "Philippines", tours: "Nature & Culture",           badge: "Nature",      img: "https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=600&q=80" },
+  { name: "La Union",  country: "Philippines", tours: "Daytour & 2D1N",            badge: "Surf & Chill", img: "https://images.unsplash.com/photo-1505118380757-91f5f5632de0?w=600&q=80" },
+  { name: "Baguio",    country: "Philippines", tours: "Day & Overnight",            badge: "Highland",    img: "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=600&q=80" },
+];
+
 // ─── Services ────────────────────────────────────────────────────────────────
 export const services = [
   { name: "Dayhike Tours",        dest: "Various Mountains & Falls", duration: "Day Trip",        tag: "Adventure",   img: "/images/hike.webp", desc: "Guided dayhikes to popular mountains and waterfalls across Luzon — safe, fun, and well-organized for all fitness levels." },
   { name: "Daytours",             dest: "Beach / Island / Town",     duration: "Day Trip",        tag: "Local",  img: "/images/local.webp", desc: "One-day trips to beaches, heritage towns, and scenic destinations. Perfect for quick getaways with friends or family." },
   { name: "Overnight Packages",   dest: "Various Destinations",      duration: "2D1N / 3D2N",    tag: "Overnight", img: "/images/overnight.webp", desc: "Overnight and multi-day tours with complete accommodation, transport, and guided itinerary included." },
   { name: "Joiner & Group Tours", dest: "Open to All",               duration: "Flexible",        tag: "Group",       img: "/images/org.webp", desc: "Join a group and travel with fellow adventurers — great for solos, barkadas, families, and team outings." },
-  { name: "Domestic Tours",       dest: "Cebu · Bohol · Boracay +", duration: "Multi-day",       tag: "Local",     img: "/images/domestic.webp", desc: "Full domestic tour packages to top Philippine destinations — El Nido, Cebu, Bohol, Boracay, Camiguin, Siquijor, and more." },
-  { name: "Exclusive Tours",      dest: "Any Destination",           duration: "Custom",          tag: "Private",     img: "/images/exclusive.webp", desc: "Private exclusive tours for up to 12 guests. Fully customized itinerary, transport, and accommodation." },
+  { name: "Domestic Tours",       dest: "Cebu · Bohol · Boracay +", duration: "Multi-day",       tag: "Domestic",     img: "/images/domestic.webp", desc: "Full domestic tour packages to top Philippine destinations — El Nido, Cebu, Bohol, Boracay, Camiguin, Siquijor, and more." },
+  { name: "Exclusive Tours",      dest: "Any Destination",           duration: "Custom",          tag: "Exclusive",     img: "/images/exclusive.webp", desc: "Private exclusive tours for up to 12 guests. Fully customized itinerary, transport, and accommodation." },
 ];
 
 // ─── Tour Rate Lists ─────────────────────────────────────────────────────────
@@ -110,6 +119,14 @@ export const domesticTours = [
 ];
 
 // ─── Packages (featured) ─────────────────────────────────────────────────────
+export const packages = [
+  { name: "El Nido, Palawan",          duration: "Domestic", price: "Inquire", badge: "Trending",    img: "https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?w=600&q=80", includes: ["Island hopping", "Accommodation", "Tour guide", "Transport", "Travel insurance available"] },
+  { name: "Bohol Package",             duration: "Domestic", price: "Inquire", badge: "Nature",      img: "https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=600&q=80", includes: ["Chocolate Hills", "Tarsier sanctuary", "River cruise", "Accommodation", "Transport"] },
+  { name: "Boracay Beach",             duration: "Domestic", price: "Inquire", badge: "Beach",       img: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&q=80", includes: ["Beachfront stay", "Island hopping", "Transport", "Tour guide", "Travel insurance available"] },
+  { name: "Sagada + Baguio",           duration: "2D1N",     price: "Inquire", badge: "Highland",    img: "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=600&q=80", includes: ["Cave connection", "Hanging coffins", "Accommodation", "Transport", "Tour guide"] },
+  { name: "Calaguas Island",           duration: "2D1N",     price: "Inquire", badge: "Island",      img: "https://images.unsplash.com/photo-1505118380757-91f5f5632de0?w=600&q=80", includes: ["Camping or inn", "Island tour", "Transport", "Meals", "Tour guide"] },
+  { name: "Ilocos Norte + Ilocos Sur", duration: "3D2N",     price: "Inquire", badge: "Heritage",    img: "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=600&q=80", includes: ["Bangui Windmills", "Paoay Church", "Vigan Heritage", "Accommodation", "Transport"] },
+];
 
 export const whyUs = [
   { label: "P", title: "Budget-Friendly",      desc: "Affordable packages for individuals, families, and groups without compromising experience." },
@@ -119,19 +136,11 @@ export const whyUs = [
 ];
 
 export const eduDestinations = [
-  { name: "The Mind Museum", img: "/images/1.webp" },
-  { name: "Art in Island", img: "/images/2.webp" },
-  { name: "Museum Y", img: "/images/3.webp" },
-  { name: "I Belong Museum", img: "/images/4.webp" },
-  { name: "Zoobic Safari", img: "/images/5.webp" },
-  { name: "Ocean Adventure", img: "/images/6.webp" },
-  { name: "Clark Safari", img: "/images/7.webp" },
-  { name: "Manila Ocean Park", img: "/images/8.webp" },
-  { name: "Sky Ranch Tagaytay", img: "/images/9.webp" },
-  { name: "Star City", img: "/images/10.webp" },
-  { name: "Dinosaurs Island", img: "/images/11.webp" },
-  { name: "Enchanted Kingdom", img: "/images/12.webp" },
-  { name: "Taal Heritage Town", img: "/images/13.webp" },
+  { name: "The Mind Museum" }, { name: "Art in Island" },    { name: "Museum Y" },
+  { name: "I Belong Museum" },{ name: "Zoobic Safari" },     { name: "Ocean Adventure" },
+  { name: "Clark Safari" },   { name: "Manila Ocean Park" }, { name: "Sky Ranch Tagaytay" },
+  { name: "Star City" },      { name: "Dinosaurs Island" },  { name: "Enchanted Kingdom" },
+  { name: "Taal Heritage Town" },
 ];
 
 export const activities = [
@@ -166,4 +175,4 @@ export const terms = [
   { num: 5, color: "#4a8fa8", highlight: false, text: "If you're about to cancel your booking, kindly inform us 3 days before the tour so we have time to find another joiner." },
 ];
 
-export const GOOGLE_FORM_URL = "";
+export const GOOGLE_FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLSc3psdmFUKAE7y_eQd5csyZTOVYm3vqBWjpWfcoC522oxH3pg/viewform?embedded=true";

@@ -12,6 +12,7 @@ import Reviews      from "./components/Reviews";
 import About        from "./components/About";
 import Booking      from "./components/Booking";
 import Terms        from "./components/Terms";
+import WorkWithUs   from "./components/Careers";
 
 export default function App() {
   return (
