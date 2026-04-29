@@ -11,7 +11,7 @@ const stories = [
 function StoryCard({ story, currentIndex, total }) {
   const [isHovering, setIsHovering] = useState(false);
   const isSecondVideo = currentIndex === 1;
-  const places = ["Boracay", "Palawan", "Siargao", "Banaue", "Tagaytay", "Intramuros", "Coron"];
+  const places = ["Dingalan", "La Union", "Minalungao", "Baler", "Tagaytay", "Hulugan Falls", "Baguio"];
   const badgeRef = useRef(null);
   const dropdownRef = useRef(null);
   
